@@ -6,7 +6,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 APP_URL = os.getenv("APP_URL")  # آدرس Railway بدون / آخر
 
 # فقط این دو کاربر اجازه دسترسی دارند
-ALLOWED_USERS = [6174716282, 97608294]
+ALLOWED_USERS = [61747, 9794]
 
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
